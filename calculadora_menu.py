@@ -18,33 +18,33 @@ while a != 3:
                 
             if simbolo == "+" :
                 print("Resultado:", n1+n2)
-                print("Retornando para o Menu...")
+                print("Escolha uma opção: ")
 
             elif simbolo == "-" :
                 print("Resultado:", n1-n2)
-                print("Retornando para o Menu...")
+                print("Escolha uma opção: ")
 
             elif simbolo == "*":
                 print("Resultado:", n1*n2)
-                print("Retornando para o Menu...")
+                print("Escolha uma opção: ")
 
             elif simbolo == "/":
                 if n2 != 0:
                     print("Resultado:", n1 / n2)
-                    print("Retornando para o Menu...")
+                    print("Escolha uma opção: ")
                 else:
                     print("Não é possível dividir por zero!")
-                    print("Retornando para o Menu...")
+                    print("Escolha uma opção: ")
 
             else:
                 print("Símbolo inválido!")
-                print("Retornando para o Menu...")
+                print("Escolha uma opção: ")
 
             print("\n[1] Continuar na Calculadora")
             print("[2] Voltar")
             menu_2 = int(input("Qual sua opção?: "))
             if menu_2 == 2:
-                    print("Retornando para o Menu...")
+                    print("Escolha uma opção: ")
 
     elif a == 2:
         
