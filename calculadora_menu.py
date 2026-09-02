@@ -52,27 +52,27 @@ while a != 3:
 
         if n1 < 90:
             print("Ângulo Agudo!")
-            print("Retornando para o Menu...")
+            print("Retornando para o Menu...\n")
 
         if n1 == 90:
             print("Ângulo Reto!")
-            print("Retornando para o Menu...")
+            print("Retornando para o Menu...\n")
 
         if n1 > 90 and n1 < 180:
             print("Ângulo Obtuso!")
-            print("Retornando para o Menu...")
+            print("Retornando para o Menu...\n")
             
         if n1 == 180:
             print("Ângulo Raso!")
-            print("Retornando para o Menu...")
+            print("Retornando para o Menu...\n")
 
         if n1 > 180 and n1 < 360:
             print("Ângulo Côncavos!")
-            print("Retornando para o Menu...")
+            print("Retornando para o Menu...\n")
 
         if n1 == 360:
             print("Ângulo Completo!")
-            print("Retornando para o Menu...")
+            print("Retornando para o Menu...\n")
             
     elif a == 3:
         print('Encerrando programa...!')
