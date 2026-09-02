@@ -51,27 +51,27 @@ while a != 3:
         n1 = int(input("Digite um Ângulo: "))
 
         if n1 < 90:
-            print(n1, "é um Ângulo Agudo!")
+            print(n1, "graus é um Ângulo Agudo!")
             print("Retornando para o Menu...\n")
 
         if n1 == 90:
-            print(n1, "é um Ângulo Reto!")
+            print(n1, "graus é um Ângulo Reto!")
             print("Retornando para o Menu...\n")
 
         if n1 > 90 and n1 < 180:
-            print(n1, "é um Ângulo Obtuso!")
+            print(n1, "graus é um Ângulo Obtuso!")
             print("Retornando para o Menu...\n")
             
         if n1 == 180:
-            print(n1, "é um Ângulo Raso!")
+            print(n1, "graus é um Ângulo Raso!")
             print("Retornando para o Menu...\n")
 
         if n1 > 180 and n1 < 360:
-            print(n1, "é um Ângulo Côncavo!")
+            print(n1, "graus é um Ângulo Côncavo!")
             print("Retornando para o Menu...\n")
 
         if n1 == 360:
-            print(n1, "é um Ângulo Completo!")
+            print(n1, "graus é um Ângulo Completo!")
             print("Retornando para o Menu...\n")
             
     elif a == 3:
