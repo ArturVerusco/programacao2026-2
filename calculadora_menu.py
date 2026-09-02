@@ -43,6 +43,8 @@ while a != 3:
             print("\n[1] Continuar na Calculadora")
             print("[2] Voltar")
             menu_2 = int(input("Qual sua opção?: "))
+            if menu_2 == 2:
+                    print("Retornando para o Menu...")
 
     elif a == 2:
         
@@ -75,5 +77,5 @@ while a != 3:
     elif a == 3:
         print('Encerrando programa...!')
         break
-    
+
 print("FIM!")
