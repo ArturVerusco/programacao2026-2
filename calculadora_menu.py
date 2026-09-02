@@ -51,7 +51,7 @@ while a != 3:
         n1 = float(input("Digite um Ângulo: "))
 
         if n1 < 90:
-            print("Ângulo Agudo!")
+            print(n1, " é um Ângulo Agudo!")
             print("Retornando para o Menu...\n")
 
         if n1 == 90:
