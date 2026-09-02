@@ -48,7 +48,7 @@ while a != 3:
 
     elif a == 2:
         
-        n1 = float(input("Digite um Ângulo: "))
+        n1 = int(input("Digite um Ângulo: "))
 
         if n1 < 90:
             print(n1, " é um Ângulo Agudo!")
