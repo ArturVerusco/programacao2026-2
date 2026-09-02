@@ -10,7 +10,7 @@ while a != 5:
 
     if a == 1:  
         
-        n1, simbolo, n2 = map(input("Digite a equação: ").split())
+        n1, simbolo, n2 = input("Digite a equação: ").split()
         n1 = float(n1)
         n2 = float(n2)
         
