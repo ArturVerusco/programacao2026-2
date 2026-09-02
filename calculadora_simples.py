@@ -14,15 +14,19 @@ while a != 5:
 
         if simbolo == "+" :
             print(n1+n2)
-
+            print("Retornando para o Menu...")
+            
         elif simbolo == "-" :
             print(n1-n2)
+            print("Retornando para o Menu...")
 
         elif simbolo == "*":
             print(n1*n2)
+            print("Retornando para o Menu...")
 
         elif simbolo == "/":
             print(n1/n2)
+            print("Retornando para o Menu...")
 
     elif a == 2:
         
@@ -30,22 +34,28 @@ while a != 5:
 
         if n1 < 90:
             print("Ângulo Agudo!")
-        
+            print("Retornando para o Menu...")
+
         if n1 == 90:
             print("Ângulo Reto!")
-        
+            print("Retornando para o Menu...")
+
         if n1 > 90 and n1 < 180:
             print("Ângulo Obtuso!")
-
+            print("Retornando para o Menu...")
+            
         if n1 == 180:
             print("Ângulo Raso!")
+            print("Retornando para o Menu...")
 
         if n1 > 180 and n1 < 360:
             print("Ângulo Côncavos!")
+            print("Retornando para o Menu...")
 
         if n1 == 360:
             print("Ângulo Completo!")
-
+            print("Retornando para o Menu...")
+            
     elif a == 3:
         print('Encerrando programa...!')
         break
