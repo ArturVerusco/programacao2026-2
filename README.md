@@ -1,3 +1,3 @@
 # programacao2026-2
 
-texteotexteo
+Aplicando conhecimentos Python no wsl/github
