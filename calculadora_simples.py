@@ -1,7 +1,6 @@
 
 a = 0
 
-
 while a != 5:
     print('[1] Calculadora Simples')
     print('[2] Calculadora Ângulo')
@@ -9,10 +8,10 @@ while a != 5:
     a = int(input('Qual sua opção?: '))
 
     if a == 1:  
-        
+            
         n1, simbolo, n2 = input("Digite a equação: ").split()
         n1, n2 = map(float, (n1,n2))
-        
+            
         if simbolo == "+" :
             print(n1+n2)
             print("Retornando para o Menu...")
