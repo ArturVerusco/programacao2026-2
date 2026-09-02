@@ -11,11 +11,13 @@ while a != 5:
     if a == 1:  
         
         n1, simbolo, n2 = map(input("Digite a equação: ").split())
-
+        n1 = float(n1)
+        n2 = float(n2)
+        
         if simbolo == "+" :
             print(n1+n2)
             print("Retornando para o Menu...")
-            
+
         elif simbolo == "-" :
             print(n1-n2)
             print("Retornando para o Menu...")
