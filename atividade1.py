@@ -1,4 +1,4 @@
-grau = int(input())
+grau = float(input())
 
 fahrenheit = (grau * 9/5) + 32
 
