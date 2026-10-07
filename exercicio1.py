@@ -1,16 +1,18 @@
-num = []
+lista = []
 
-while True:
+for i in range(10):
     numeros = input("Digite os números (ou FIM para sair): ")
-    
-    if numeros.upper() == "FIM":
-        break
-        
-    for x in numeros.split():
-        valor = int(x)
-        
-        if valor not in num:
-            num.append(valor)
+    if numeros not in num:
+            num.append(numeros)
 
-    num.sort() 
-    print(num)
+    if numeros.isdecimal():
+        print("Erro - numeros digitado não é um número.")
+        continue
+
+    num = int(numeros)
+
+    if num not in lista:
+        lista.append(num)
+
+print("A lista digitada:" )
+print(lista)
