@@ -8,6 +8,9 @@ while True:
         
     for x in numeros.split():
         num.append(int(x))
-    
+        
+        if valor not in num:
+            num.append(valor)
+
     num.sort() 
     print(num)
