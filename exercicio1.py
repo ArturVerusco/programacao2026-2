@@ -1,11 +1,9 @@
 lista = []
 
 for i in range(10):
-    numeros = input("Digite os números (ou FIM para sair): ")
-    if numeros not in num:
-            num.append(numeros)
+    numeros = input(f"{i+1:2d} - Digite os números (ou FIM para sair): ")
 
-    if numeros.isdecimal():
+    if numero not numeros.isdecimal():
         print("Erro - numeros digitado não é um número.")
         continue
 
