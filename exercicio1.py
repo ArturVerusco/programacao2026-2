@@ -7,7 +7,7 @@ while True:
         break
         
     for x in numeros.split():
-        num.append(int(x))
+        valor = int(x)
         
         if valor not in num:
             num.append(valor)
