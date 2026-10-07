@@ -1,9 +1,13 @@
-while True:
-    num = list(map(int, input("Digite os números: ").split()))
-    
-    if num.upper() == "FIM":
-        break
+num = []
 
-    num.sort()
+while True:
+    numeros = input("Digite os números (ou FIM para sair): ")
     
+    if numeros.upper() == "FIM":
+        break
+        
+    for x in numeros.split():
+        num.append(int(x))
+    
+    num.sort() 
     print(num)
