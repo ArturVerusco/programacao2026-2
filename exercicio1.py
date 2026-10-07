@@ -3,7 +3,7 @@ lista = []
 for i in range(10):
     numeros = input(f"{i+1:2d} - Digite os números (ou FIM para sair): ")
 
-    if numero not numeros.isdecimal():
+    if numeros not numeros.isdecimal():
         print("Erro - numeros digitado não é um número.")
         continue
 
