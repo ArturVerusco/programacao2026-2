@@ -1,12 +1,12 @@
-nomes = list(input("Digite os nomes: ").split())
+nomes = input("Digite os nomes separados por espaço: ").split()
 total_nomes = len(nomes)
 
-nota_total = []
+notas_totais = []
 
-for i in nomes:
+for nome in nomes:
     print(f"\n--- Digite as 3 notas de {nome} ---")
 
-    nota_por_aluno = []
+    notas_por_aluno = []
 
     for i in range(3):
         nota = float(input(f"Digite a nota {i + 1}: "))
@@ -14,5 +14,6 @@ for i in nomes:
 
     notas_totais.append(notas_por_aluno)
 
+print("\n=== Resultado Final ===")
 for i in range(len(nomes)):
-    print(f"{nomes[i]} ficou com as notas: {notas_dos_alunos[i]}")
+    print(f"{nomes[i]} ficou com as notas: {notas_totais[i]}")
