@@ -4,7 +4,8 @@ total_nomes = len(nomes)
 nota_total = []
 
 for i in nomes:
-    
+    print(f"\n--- Digite as 3 notas de {nome} ---")
+
     nota_por_aluno = []
 
     for i in range(3):
