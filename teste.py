@@ -1,6 +1,8 @@
-nomes = input()
+nomes = list(input("Digite os nomes:"))
+notas = 0
 
-notas = input("Digite essa quantidade de notas:",len(nomes))
+if notas != 1:
+    notas = input("Digite essa quantidade de notas:",len(nomes))
 
 total = len(notas) / len(nomes)
 
